@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'TT Lakes Regular';
+    src: url('TTLakes-Regular.eot');
+    src: url('TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+    url('font/TTLakes-Regular.woff') format('woff'),
+    url('TTLakes-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'TT Lakes Bold';
+    src: url('TTLakes-Bold.eot');
+    src: url('TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+    url('font/TTLakes-Bold.woff') format('woff'),
+    url('TTLakes-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body {
+    background-color: #F2F2F2;
+    font-family: 'TT Lakes Regular';
+}
+
+.page {
+    background-color: #F8F8F8;
+    margin:auto;
+    max-width: 1120px;
+}
+
+.upper-menu {
+    height: 88px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 0 16px  0 16px;
+}
+.upper-menu__left-menu {
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    width: 162px;
+}
+.upper-menu__right-menu {
+    display: flex;
+    flex-direction: flex-end;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.upper-menu__button-menu,
+.upper-menu__call,
+.upper-menu__chat,
+.upper-menu__profile,
+.upper-menu__repair,
+.upper-menu__check-status {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FF3E79;
+    border: none;
+}
+
+.upper-menu__button-menu {
+    order: -3;
+
+}
+
+.upper-menu__divider,
+.upper-menu__right-divider {
+    width: 2px;
+    height: 32px;
+    background-color: #EAEAEA;
+    border-radius: 1px;
+}
+
+.services__page-nav {
+    margin: 24px 0 0 16px;
+    display: flex;
+}
+
+.upper-menu__title,
+.services__title {
+    font-family: 'TT Lakes Bold';
+    margin: 24px 16px 0 16px;
+    font-size: 28px;
+    text-align: start;
+    font-weight: bold;
+}
+.services__item {
+    white-space: nowrap;
+    font-size: 16px;
+    color:#7E7E82;
+    Line-height: 24px;
+    padding: 8px;
+    text-decoration: none;
+}
+.services__item:hover,
+.services__item:focus {
+    background-color: #FFFFFF;
+    border: 2px solid #B8FFEC;
+
+}
+
+
+.company-description {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: auto;
+    margin: 16px;
+}
+.company-description__text {
+    width: 320px;
+    flex-grow: 1; 
+    font-size: 14px;
+}
+
+.button-read-more {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:nowrap;
+    width: 140px;
+    height: 24px;
+    border: none;
+    background-color: #F8F8F8;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.company-description__img {
+    flex-grow: 1;   
+}
+@media (min-width: 322px){
+    .upper-menu__divider{
+        order:-2;
+    }    
+}
+@media (max-width: 687.98px) {
+    .upper-menu__right-menu {
+        width: 96px;
+    }
+    .company-description__img {
+        margin-top: 16px;
+    }
+    .upper-menu__call,
+    .upper-menu__chat,
+    .upper-menu__profile,
+    .upper-menu__right-divider {
+        display: none;
+    }
+}
+
+@media (min-width: 688px) {
+    .upper-menu__right-menu {
+        width: 314px;
+    }
+}
+@media (max-width: 1022.99px) {
+    .services__page-nav {
+        height: 40px;
+        overflow: scroll;
+        align-content: center;
+        margin-right:  16px; 
+    }    
+    .upper-menu__title {
+        display: none;
+    }
+}
+@media (min-width: 1023px) {
+    .upper-menu__left-menu {
+        width: 300px;
+    }
+    .services__page-nav {
+        flex-wrap: wrap;
+        height: auto;
+        align-content: space-around;
+        margin-right:  14px; 
+    }
+    .upper-menu {
+        background-color: #F8F8F8;
+    }
+
+    .services__title {
+        display: none;
+    }
+    .upper-menu__button-menu,
+    .upper-menu__logo,
+    .upper-menu__divider,
+    .upper-menu__call,
+    .upper-menu__chat,
+    .upper-menu__profile,
+    .upper-menu__right-divider {
+    display: none;
+    }
+    .upper-menu__right-menu {
+        width: 96px;
+    }
+}
