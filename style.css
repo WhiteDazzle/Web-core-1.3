@@ -104,7 +104,8 @@ body {
 .services__item:focus {
     background-color: #FFFFFF;
     border: 2px solid #B8FFEC;
-
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 
