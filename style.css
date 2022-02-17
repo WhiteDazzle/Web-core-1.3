@@ -27,6 +27,7 @@ body {
     background-color: #F8F8F8;
     margin:auto;
     max-width: 1120px;
+    min-width: 319px;
 }
 
 .upper-menu {
