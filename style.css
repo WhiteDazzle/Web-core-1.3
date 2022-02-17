@@ -133,6 +133,9 @@ body {
     background-color: #F8F8F8;
     font-size: 16px;
     margin-top: 16px;
+    background-image: url('img/button-read-more__symbol.svg');
+    background-repeat: no-repeat;
+    background-position: 1% 50%;
 }
 
 .company-description__img {
@@ -176,7 +179,7 @@ body {
 }
 @media (min-width: 1023px) {
     .upper-menu__left-menu {
-        width: 300px;
+        width: max-content;
     }
     .services__page-nav {
         flex-wrap: wrap;
