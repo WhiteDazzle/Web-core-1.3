@@ -6,7 +6,7 @@
     url('TTLakes-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    }
+}
 
 @font-face {
     font-family: 'TT Lakes Bold';
@@ -16,7 +16,7 @@
     url('TTLakes-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    }
+}
 
 body {
     background-color: #F2F2F2;
@@ -37,6 +37,7 @@ body {
     background-color: #FFFFFF;
     padding: 0 16px  0 16px;
 }
+
 .upper-menu__left-menu {
     display: flex;
     flex-direction: flex-start;
@@ -44,6 +45,7 @@ body {
     justify-content: space-between;
     width: 162px;
 }
+
 .upper-menu__right-menu {
     display: flex;
     flex-direction: flex-end;
@@ -51,7 +53,6 @@ body {
     justify-content: space-between;
 
 }
-
 
 .upper-menu__button-menu,
 .upper-menu__call,
@@ -68,7 +69,6 @@ body {
 
 .upper-menu__button-menu {
     order: -3;
-
 }
 
 .upper-menu__divider,
@@ -180,6 +180,7 @@ body {
 @media (min-width: 1023px) {
     .upper-menu__left-menu {
         width: max-content;
+        margin-left: -16px;
     }
     .services__page-nav {
         flex-wrap: wrap;
