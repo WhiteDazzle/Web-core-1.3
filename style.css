@@ -118,7 +118,7 @@ body {
     margin-top: 24px;
     margin-right: -16px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .header__title,
