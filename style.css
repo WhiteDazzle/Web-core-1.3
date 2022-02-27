@@ -225,6 +225,8 @@ body {
     position: absolute;
     left: 0;
     width: 320px;
+    height: 100%;
+    min-height: 800px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -314,8 +316,11 @@ box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02),
     color: #7E7E82;
 }
 
+.left-menu__footer {
+    position: absolute;
+    bottom: 0;
+}
 .left-menu__button-group {
-    margin-top: 268px;
     padding-left: 24px;
     width: 152px;
     height: 40px;
